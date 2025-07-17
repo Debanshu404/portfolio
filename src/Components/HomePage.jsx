@@ -8,7 +8,7 @@ import Portfolio from '../Components/portfolio/Portfolio';
 import Contact from '../Components/contact/Contact';
 import Footer from '../Components/footer/Footer';
 import Testimonials from '../Components/testimonials/Testonomials';
-import UserHead from './uSERhEAD.JSX';
+import UserHead from '../Components/UserHead';
 
 
 const HomePage = () => {
