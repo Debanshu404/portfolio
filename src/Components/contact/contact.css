@@ -1,0 +1,172 @@
+#contact{
+
+  /* border: 2px solid green; */
+  padding: 3.5rem 3rem;
+ 
+}
+.contact-container {
+  max-height: 1300px; /* or 1200px or 1400px based on your layout */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 36px;
+  padding: 1.2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.left{
+  padding: 1rem 3rem;
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid green; */
+  
+}
+.right{
+  height: 100%;
+  width: 70%;
+
+  /* border: 2px solid green; */
+padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.socials{
+      display:flex;
+
+
+
+    /* align-items: center; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 2rem;
+}
+
+.form-container{
+  margin-top: 1rem;
+}
+.form-container input::placeholder{
+  padding: 0.7rem;
+}
+.button-interest{
+  margin-top: 1rem;
+}
+.interest-button {
+     padding: 0.2rem 0.3rem;
+    border-radius: 9999px;
+    border: 2px solid #0D0C22;
+    color: #747282;
+    font-size: 0.7em;
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.interest-button:hover {
+  background-color: #b3a2f0; /* hover:bg-[#ede8ff] */
+}
+.other{
+  margin-top: 1rem;
+}
+.other textarea::placeholder{
+  padding: 1rem 0.5rem;
+  font-size: 0.8rem;
+
+}
+.submit-btn{
+  padding: 0.5rem 0.5rem;
+}
+/* contact right styling  */
+/* .socials{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+} */
+
+.social-content{
+   display: flex;
+   gap: 1rem;
+align-items: center;
+}
+.social-content h3{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.social-icon{
+  border: 1px solid transparent;
+  background:rgb(141, 132, 244);
+  border-radius: 50%;
+  align-items: center;
+      font-size: 2rem;
+  
+}
+.rightimg img {
+  width: 100%;
+  height: 100%;
+
+  background-color: transparent;
+}
+@media (max-width: 767px) {
+  #contact {
+    padding: 2rem 1rem;
+  height: 170vh;
+  border: 2px solid green;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 1rem;
+    max-height: 1330px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .right {
+    align-items: center;
+    text-align: center;
+  }
+
+  .socials {
+    flex-direction: row;
+   
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .social-content h3 {
+    font-size: 1rem;
+  }
+
+  .rightimg img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .interest-button,
+  .submit-btn {
+    width: 100%;
+  }
+
+  .other textarea::placeholder {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .social-content h3 {
+        font-size: 0.8rem;
+    }
+        .socials{
+          align-items: flex-start;
+         
+        }
+}
+

@@ -1,0 +1,127 @@
+.aboutsection{
+margin-top: 5rem;
+}
+.about-container{
+    display: flex;
+    gap:12rem;
+    
+}
+.about-me{
+      width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+  display: flex;
+align-items: center;
+}
+.aboutme_image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform:rotate(10deg);
+  transition: var(--transition);
+}
+.aboutme_image:hover{
+    transform: rotate(0);
+}
+.about-cards{
+    display: flex;
+    gap: 5rem;
+}
+.about-card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding:2rem ;
+   display: flex;
+  flex-direction: column;
+  align-items: center; 
+    text-align: center;
+    transition: var(--transition);
+}
+.about-card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.about-icon{
+color: var(--var-primary);
+font-size: 1.4rem;
+margin-bottom: 1rem;
+
+
+}
+.about-card h5{
+    font-size: 0.9rem;
+}
+.about-card small{
+    font-size: 0.9rem;
+    color: var(--color-light);
+}
+.about-card p{
+    font-size: 0.9rem;
+    color: var(--color-light);
+}
+
+
+
+@media (max-width: 1024px) {
+  .about-container {
+    gap: 8rem; 
+  }
+
+  .about-me {
+    width: 90%; 
+  }
+
+  .about-cards {
+    gap: 3rem; 
+  }
+
+  .about-card {
+    padding: 1.8rem; 
+  }
+ 
+
+  .aboutme_image img {
+    max-width: 100%; /* Ensures image scales within its container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Prevents distortion */
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Stack image & content vertically */
+    align-items: center; /* Ensure content is centered */
+  }
+
+  .about-me {
+    margin-top: 2rem;
+    width: 100%; /* Make image container full width */
+    margin-bottom: 2rem; /* Add spacing below the image */
+  }
+
+  .about-cards {
+    margin-top: -3rem;
+    flex-direction: column; /* Stack cards below */
+    gap: 2rem;
+     margin-bottom: 3rem;
+  }
+  .about-card p{
+   
+    font-size: 0.9rem;
+    color: var(--color-light);
+}
+.about-content{
+    text-align: center;
+  
+
+}
+.about-content a{
+
+margin-top: 1.5rem;
+
+}
+
+}

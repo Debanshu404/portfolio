@@ -1,0 +1,70 @@
+.experience-container {
+
+   display: flex;
+   justify-content:space-around;
+   gap: 4rem;
+   margin: auto;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem; */
+    margin-top: 12rem;
+}
+.experience-container>div{
+    background: var(--color-bg-variant);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+ 
+}
+.experience-container>div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+.experience-container>div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color:var(--color-primary);
+
+}
+#experience h5{
+    margin-bottom: 2rem;
+    /* color: red; */
+}
+
+.experience-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5rem;
+    column-gap: 6rem;
+}
+.experince-detail{
+    display: flex;
+    gap: 1.5rem;
+}
+.experince-detail-icon{
+    margin-top:  0.35rem;
+}
+@media screen and (max-width:700px) {
+    #experience{
+        margin-top: 49rem;
+    }
+    .experience-container{
+flex-direction: column;
+gap:3rem
+    }
+    .experience-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5rem;
+    column-gap: 3rem;
+    /* place-items: center; */
+    place-content: center;
+}
+.experience-container>div h3{
+font-size: 1.3rem;
+}
+#experience h5{
+    font-size: 1.5rem
+}
+
+}
