@@ -6,6 +6,10 @@ margin-top: 5rem;
     gap:12rem;
     
 }
+.about-content{
+
+  gap: 3.5rem;
+}
 .about-me{
       width: 100%;
   aspect-ratio: 1/1;

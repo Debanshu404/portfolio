@@ -37,11 +37,11 @@ const About = () => {
             </article>
           </div>
           <p className="aboutp">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            fugit placeat repudiandae porro in aliquid eaque consequuntur ipsam
-            eos assumenda dolores similique magni, voluptate at quidem omnis
-            magnam quod laborum perferendis error atque veniam vitae voluptates
-            exercitationem? Ratione, reprehenderit iusto.
+            Hello! I’m a passionate and driven BTech student with a strong interest in full stack development. As an emerging developer, I enjoy building web applications that combine creative front-end design with robust back-end functionality. I am currently honing my skills in Data Structures and Algorithms to enhance my problem-solving abilities and write efficient code.
+
+I thrive on learning new technologies and tackling challenges head-on. My academic journey has given me the foundation to understand core computer science concepts, and I’m eager to apply this knowledge to real-world projects. Whether working independently or collaborating in a team, I am committed to continuous growth and delivering high-quality solutions.
+
+I’m looking for opportunities where I can contribute, learn, and further grow as a developer. Let’s connect and build something amazing together!
           </p>
           <a href="#contact" className="btn btn-primary">
             Lert's talk
